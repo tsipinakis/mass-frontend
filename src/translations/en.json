@@ -521,6 +521,10 @@
         "audiobook_skip_seconds": {
             "label": "Audiobook\/Podcast skip amount",
             "description": "Number of seconds to skip forward or backward when using skip controls during audiobook or podcast playback."
+        },
+        "audiobook_chapter_time": {
+            "label": "Audiobook Chapter Progress",
+            "description": "Show the progress of the current chapter instead of the full duration when playing audiobooks."
         }
     },
     "show_info": "Show info",
