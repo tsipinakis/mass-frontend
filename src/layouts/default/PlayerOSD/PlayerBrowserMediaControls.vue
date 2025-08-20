@@ -17,6 +17,7 @@ import api from "@/plugins/api";
 import { PlaybackState } from "@/plugins/api/interfaces";
 import { store } from "@/plugins/store";
 import { onMounted, ref, watch } from "vue";
+import { MediaType } from "../../../plugins/api/interfaces";
 
 const audioRef = ref<HTMLAudioElement>();
 

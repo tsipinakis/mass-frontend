@@ -149,7 +149,21 @@ onMounted(() => {
       label: "audiobook_skip_seconds",
       default_value: 30,
       required: false,
-      options: [10, 15, 30, 60],
+      options: [
+        {
+          title: "10",
+          value: 10,
+        },
+        {
+          title: "20",
+          value: 20,
+        },
+
+        {
+          title: "30",
+          value: 30,
+        },
+      ],
       multi_value: false,
       category: "audiobooks_podcasts",
       value: parseInt(
